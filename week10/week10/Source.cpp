@@ -14,14 +14,14 @@ int main()
 	Vector_Prctice a[num];
 	for (int i = 0; i < num; i++)
 	{
-		a[i].x =i;
+		a[i].x =i+0.001;
 		a[i].y= 3.0 *a[i].x + 1 +(float) (rand() / RAND_MAX);
 	}
 	
 	Vector_Prctice b[num];
 	for (int j = 0; j < num; j++)
 	{
-		b[j].x =j;
+		b[j].x =j+0.01;
 		b[j].y = 3.0* b[j].x + 1;
 	}
 
